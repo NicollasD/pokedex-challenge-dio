@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./src/css/normalize.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/global.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./src/img/favicon.png" type="image/x-icon">
+    <title>Pokedex</title>
+</head>
+
+<body>
+    <main class="container">
+        <img id="bg-logo" src="./src/img/pokeball-logo.png" alt="background-logo">
+        <header class="header">
+            <img src="./src/img/pokeball-main-logo.png" alt="pokeball logo" class="logo__icon">
+            <h1>Pokedex</h1>
+        </header>
+        
+        <ol id="pokemonsList" class="pokemons__list">
+        </ol>
+        <div class="pagination">
+            <button id="loadMoreButton">Load More</button>
+        </div>
+    </main>
+    <footer>
+        <p>Developed by <a href="">Nico.dev</a> & DIO - 2024</p>
+    </footer>
+    <script src="./src/js/pokemon-model.js"></script>
+    <script src="./src/js/poke-api.js"></script>
+    <script src="./src/js/main.js"></script>
+</body>
+
+</html>
